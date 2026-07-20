@@ -1,0 +1,15 @@
+Employee Information
+
+Name: Manoj Kumar Sah
+
+Role: AI Full Stack Engineer
+
+Company: National Informatics Centre
+
+Experience: 9+ years
+
+Skills:
+- Vue.js
+- Nuxt.js
+- Python
+- CrewAI

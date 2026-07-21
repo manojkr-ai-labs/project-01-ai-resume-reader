@@ -12,9 +12,9 @@
 
 #     verbose=True
 # )
-from crewai import Crew
+from crewai import Crew 
 
-from src.agents import research_agent, writer_agent
+from src.agents.agents import research_agent, writer_agent
 from src.tasks import research_task, writing_task
 
 research_crew = Crew(

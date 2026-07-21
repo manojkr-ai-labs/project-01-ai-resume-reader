@@ -54,8 +54,8 @@
 
 
 from crewai import Task
-from src.agents import research_agent
-from src.agents import writer_agent
+from src.agents.agents import research_agent
+from src.agents.agents import writer_agent
 
 # research_task = Task(
 #     description="""

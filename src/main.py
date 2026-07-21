@@ -7,9 +7,12 @@
 
 # print(result)
 
-from src.pdf_reader import read_pdf
-from src.job_reader import read_job_description
-from src.ats_agent import analyze_resume
+from src.readers.pdf_reader import read_pdf
+from src.readers.job_reader import read_job_description
+
+from src.agents.resume_parser import parse_resume
+from src.agents.ats_agent import analyze_resume
+
 
 resume = read_pdf("data/john-smith.pdf")
 

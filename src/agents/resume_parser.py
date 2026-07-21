@@ -1,6 +1,6 @@
 from src.llm_provider import llm
-from src.prompts import RESUME_PARSER_PROMPT
-
+# from src.prompts import RESUME_PARSER_PROMPT
+from src.prompts.resume_prompt import RESUME_PARSER_PROMPT
 
 def parse_resume(resume_text: str):
 

@@ -1,0 +1,72 @@
+Senior Full Stack AI Engineer
+
+Company
+
+TechNova AI Solutions
+
+Location
+
+Remote / Hybrid
+
+Experience
+
+5+ years
+
+Employment Type
+
+Full-Time
+
+About the Role
+
+We are looking for a Senior Full Stack AI Engineer to build AI-powered
+applications, RAG systems, and intelligent automation solutions.
+
+Required Technical Skills
+
+-   Python
+-   CrewAI
+-   LangChain
+-   Ollama or OpenAI APIs
+-   FastAPI
+-   Docker
+-   Kubernetes
+-   Git
+-   REST APIs
+-   SQL
+
+Preferred Skills
+
+-   Vue.js
+-   Nuxt.js
+-   React
+-   AWS
+-   Redis
+-   Vector Databases (ChromaDB, FAISS, Pinecone)
+
+Responsibilities
+
+-   Build AI Agents using CrewAI
+-   Develop RAG applications
+-   Build REST APIs with FastAPI
+-   Integrate LLMs into business applications
+-   Write clean, maintainable Python code
+-   Collaborate with frontend developers
+-   Deploy applications using Docker and Kubernetes
+-   Optimize AI application performance
+
+Education
+
+Bachelor’s degree in Computer Science or related field.
+
+Nice to Have
+
+-   Prompt Engineering
+-   MCP
+-   CI/CD
+-   Terraform
+-   AI Security
+
+ATS Keywords
+
+Python, CrewAI, LangChain, Ollama, FastAPI, Docker, Kubernetes, AWS,
+RAG, LLM, AI Agent, Prompt Engineering, REST API, Git, SQL

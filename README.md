@@ -59,26 +59,26 @@ The screening flow above is the first slice of a larger multi-agent review. The 
           Markdown / PDF Report
 ```
 
-| Stage | Role | In this repo |
-| --- | --- | --- |
-| PDF reader | Turn an uploaded resume into text | Used by `src/main.py` |
-| Resume parser | Extract identity, skills, experience, education | Implemented, not called from `main` |
-| ATS agent | Score the resume against one job description | Used by `src/main.py` |
-| Skill agent | Judge skill depth separately from keyword match | Planned |
-| Interview agent | Draft interview questions from the gaps | Prompt file only |
-| Report generator | Combine the agent outputs into one Markdown or PDF report | Planned |
+| Stage            | Role                                                      | In this repo                         |
+| ---------------- | --------------------------------------------------------- | ------------------------------------ |
+| PDF reader       | Turn an uploaded resume into text                         | Used by`src/main.py`               |
+| Resume parser    | Extract identity, skills, experience, education           | Implemented, not called from`main` |
+| ATS agent        | Score the resume against one job description              | Used by`src/main.py`               |
+| Skill agent      | Judge skill depth separately from keyword match           | Planned                              |
+| Interview agent  | Draft interview questions from the gaps                   | Prompt file only                     |
+| Report generator | Combine the agent outputs into one Markdown or PDF report | Planned                              |
 
 Alongside that pipeline, `src/crew.py` defines a small [CrewAI](https://crewai.com/) crew: a research agent reads `data/employee.txt` with a file tool, and a writer agent turns those findings into a Markdown report. That crew shows tool use and handoff between agents. It is not wired into `src/main.py`.
 
 ## Stack
 
-| Piece | Choice |
-| --- | --- |
-| Language | Python |
-| Agents and crews | CrewAI |
-| Model access | CrewAI `LLM` client pointed at Ollama |
-| PDF extraction | PyMuPDF |
-| Config | `python-dotenv` |
+| Piece            | Choice                                 |
+| ---------------- | -------------------------------------- |
+| Language         | Python                                 |
+| Agents and crews | CrewAI                                 |
+| Model access     | CrewAI`LLM` client pointed at Ollama |
+| PDF extraction   | PyMuPDF                                |
+| Config           | `python-dotenv`                      |
 
 Pinned packages are in `requirements.txt`. PDF reading also needs PyMuPDF, which is installed in the setup steps below.
 
